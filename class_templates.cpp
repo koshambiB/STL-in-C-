@@ -47,7 +47,7 @@ public:
     ~Trial() { delete[] ptr; delete[] ptr2; }
     void print();//function declaration
 };
-template <typename T> 
+template <typename T,typename U> 
 Trial<T, U>::Trial(T arr[], U arr2[], int s)
 {
     this->ptr = new T[s];
@@ -62,7 +62,7 @@ Trial<T, U>::Trial(T arr[], U arr2[], int s)
 
 
 }
-template <typename T>
+template <typename T ,typename U>
 void Trial<T,U>::print()
 {
     for (int i = 0; i < size; i++)
