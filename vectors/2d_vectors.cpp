@@ -48,7 +48,7 @@ int main()
     { 
         for(int j = 0; j < m; j++) 
         { 
-            vect2[i][j] = j + i + 1; 
+            vec[i][j] = j + i + 1; 
         } 
     } 
   
